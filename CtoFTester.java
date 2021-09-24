@@ -6,12 +6,12 @@ the a degrees in a different system of measurement
 */
 public class CtoFTester{
 	public static double celsiusToFahrenheit(double x){
-		return (x*(9/5))+32;
+		return (x*(9.0/5.0))+32.0;
 	}
 	public static double fahrenheitToCelsius(double x){
-		return (x-32)*(5/9);
+		return (x-32.0)*(5.0/9.0);
 	}
       public static void main(String[] args){
-          
+        System.out.println(celsiusToFahrenheit(56.0)+" "+fahrenheitToCelsius(56.0));
       }
 }
